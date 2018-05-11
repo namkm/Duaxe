@@ -77,7 +77,7 @@ void Output(Object car,Object obstacle,int score){
 	}
 
 	gotoXY (roadWidth+5,screenHeight/2);
-	cout<<"Your fucking score: "<<score;
+	cout<<"Your score: "<<score;
 }
 
 bool Process(Object &car,Object &obstacle,int &score){
