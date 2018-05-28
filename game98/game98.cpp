@@ -96,8 +96,8 @@ void Control(Object &car){
 		int key=_getch();
 		if(key==75 && car.coord.x>=6) car.coord.x-=3; //cham bien trai
 		else if(key==77 && car.coord.x<=roadWidth-5) car.coord.x+=3; //cham bien phai
-        else if(key==72 && car.coord.y>2) car.coord.y+=3;
-        else if(key==80 && car.coord.y<screenHeight-5) car.coord.y-=3;
+        	else if(key==72 && car.coord.y>2) car.coord.y+=3;
+        	else if(key==80 && car.coord.y<screenHeight-5) car.coord.y-=3;
 	}
 }
 
